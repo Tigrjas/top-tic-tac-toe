@@ -1,27 +1,23 @@
-# Odin Project Starter Template
-This is a basic starter template for projects in [The Odin Project](https://www.theodinproject.com/). It includes the default setup of:
+# 🎮 Tic Tac Toe
 
-- `index.html`
-- `style.css`
-- `script.js`
+A browser-based implementation of the classic **Tic Tac Toe** game built with **JavaScript**, **HTML**, and **CSS**. This project is part of the [JavaScript Course](https://www.theodinproject.com/) from *The Odin Project*.
 
----
+## 📚 Overview
 
-## How to Use
-1. Click the green **"Use this template"** button on this repo
-2. Create a **new repository** for your project (e.g. `odin-rock-paper-scissors`)
-3. Clone your new repo to your local machine:
+This project focuses on organizing code using **factories** and **modules**, with minimal global scope usage. The logic is structured into separate objects for:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/your-new-project.git
-```
+- **Gameboard** – Stores and renders the game state.
+- **Player** – Represents each player.
+- **Game Controller** – Manages the game's flow and logic.
+- **Display Controller** – Handles interactions with the DOM.
 
+## 🔧 Features
 
----
-
-### When to Remove or Update the README
-
-When you generate a new project from this template:
- It’s OK to **leave the README temporarily** — just update it later to reflect the new project.
-- Or delete it entirely and write a project-specific one.
+- Two-player gameplay  
+- Click-based interaction  
+- Dynamic rendering of the game board  
+- Game result detection (win or tie)  
+- Player name input  
+- Game restart functionality  
+- Clean, modular code architecture using factory functions and IIFEs
 
